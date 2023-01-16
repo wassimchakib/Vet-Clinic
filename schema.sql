@@ -4,7 +4,7 @@ create table animals(
   id integer,
   name varchar(100),
   date_of_birth date,
-  espace_attempts integer,
+  escape_attempts integer,
   neutered bit,
   weight_kg decimal
 );
