@@ -6,6 +6,7 @@ create table animals(
   date_of_birth date,
   escape_attempts integer,
   neutered bit,
-  weight_kg decimal
+  weight_kg decimal,
+  species varchar
 );
 
