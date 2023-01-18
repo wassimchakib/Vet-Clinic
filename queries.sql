@@ -20,17 +20,20 @@ select * from animals where weight_kg between 10.4 and 17.3;
 begin;
 Update animals set species = 'unspecified';
 rollback;
+select * from animals;
 
 /* Transaction 2 */
 begin;
 Update animals set species = 'digimon' where name like '%mon';
 Update animals set species = 'pokemon' where species is null;
 commit;
+select * from animals;
 
 /* Transaction 3 */
 begin;
 delete from animals;
 rollback;
+select * from animals;
 
 /* Transaction 4 */
 begin;
