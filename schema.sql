@@ -47,7 +47,7 @@ create table visits(
   animals_id integer,
   vets_id integer,
   date_of_visit date,
-  primary key(animals_id, vets_id),
+  primary key(animals_id, vets_id, date_of_visit),
   constraint fk_animals foreign key(animals_id) references animals(id) on delete cascade,
   constraint fk_vets foreign key(vets_id) references vets(id) on delete cascade
 );
