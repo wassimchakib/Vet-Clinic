@@ -51,3 +51,9 @@ create table visits(
   constraint fk_animals foreign key(animals_id) references animals(id) on delete cascade,
   constraint fk_vets foreign key(vets_id) references vets(id) on delete cascade
 );
+
+/* Create indexes */
+
+create index index_animal on visits(animals_id);
+create index index_vet on visits(vets_id);
+create index index_owner on owners(email);
