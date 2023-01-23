@@ -91,3 +91,8 @@ select count(*) as nb_of_visits from visits join vets on visits.vets_id = vets.i
 where animals.species_id != specializations.species_id;
 /* What specialty should Maisy Smith consider getting? Look for the species she gets the most. */
 select count(visits.animals_id) as nb_of_visits ,animals.name, species.name,  vets.name from visits join vets on visits.vets_id = vets.id join animals on visits.animals_id = animals.id join species on animals.species_id = species.id where visits.vets_id = (select id from vets where name = 'Maisy Smith') group by visits.animals_id, animals.name, vets.name, species.name order by nb_of_visits desc limit 1;
+
+
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
