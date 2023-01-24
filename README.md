@@ -63,11 +63,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> This is a database about vet clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,7 +73,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
@@ -87,7 +85,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
 <details>
 <summary>Database</summary>
@@ -96,7 +94,8 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
+
+<!-- Features 
 
 ### Key Features <a name="key-features"></a>
 
@@ -106,7 +105,7 @@ After you're finished please remove all the comments and instructions!
 - **[key_feature_2]**
 - **[key_feature_3]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- LIVE DEMO -->
 
@@ -116,7 +115,12 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+## Schema
+
+![drawSQL-vet-clinic-export-2023-01-24](https://user-images.githubusercontent.com/50754458/214254937-c56b3866-c073-4d85-baa5-3ec7d8d30d18.png)
+
 
 <!-- GETTING STARTED -->
 
